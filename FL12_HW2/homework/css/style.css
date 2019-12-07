@@ -101,12 +101,12 @@ section.blocks div.tm-content-box.flex-2-col {
 
 section.blocks div.tm-content-box ul li:nth-child(odd) {
   background-color: lightskyblue;
-  border: 6px solid lightskyblue;
+  border: 10px solid lightskyblue;
   color: white;
 }
 
 section.blocks div.tm-content-box ul li:nth-child(even) {
-  border: 6px solid white;
+  border: 10px solid white;
 }
 
 section.blocks div.tm-content-box ul li p::first-letter {
