@@ -140,8 +140,7 @@ textarea#contact_message {
 
 input#contact_name:focus,
 input#contact_email:focus,
-input#contact_subject:focus,
-textarea:focus {
+input#contact_subject:focus {
   background-color: lightskyblue;
 }
 
