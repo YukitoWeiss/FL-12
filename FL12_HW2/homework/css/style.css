@@ -114,6 +114,10 @@ section.blocks div.tm-content-box ul li p::first-letter {
   font-weight: bold;
 }
 
+section.blocks div.tm-content-box ul li p {
+  font-style: italic;
+}
+
 p.tm-section-description {
   text-indent: 25px;
   line-height: 30px;
