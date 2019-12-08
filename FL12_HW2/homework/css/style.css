@@ -46,6 +46,7 @@ div.tm-content-box.flex-2-col div.padding-medium p {
 li.box.box-bg:hover {
   background-color: lightgrey;
   color: lightskyblue;
+  font-style: italic;
 }
 
 section.heading h2 {
