@@ -18,10 +18,12 @@ p.tm-banner-text {
 
 @keyframes rightToCenter {
   0% {
-    padding-left: 200px;
+    position: relative;
+    left: 200px;
   }
   100% {
-    padding-left: 0px;
+    position: relative;
+    left: 0px;
   }
 }
 
@@ -102,12 +104,12 @@ section.blocks div.tm-content-box.flex-2-col {
 
 section.blocks div.tm-content-box ul li:nth-child(odd) {
   background-color: lightskyblue;
-  border: 10px solid lightskyblue;
+  padding: 10px;
   color: white;
 }
 
 section.blocks div.tm-content-box ul li:nth-child(even) {
-  border: 10px solid white;
+  padding: 10px;
 }
 
 section.blocks div.tm-content-box ul li p::first-letter {
@@ -185,8 +187,23 @@ section {
     list-style-type: none;
   }
 
+  p.tm-banner-text {
+    animation: none;
+  }
+
+  div.tm-content-box.flex-2-col div.padding-medium {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #tmCarousel,
+  .tm-team-description-container {
+    padding-right: 10px;
+  }
+
   p.tm-section-description {
     line-height: normal;
+    text-indent: 0;
   }
 
   div.tm-banner-inner,
