@@ -187,10 +187,6 @@ section {
     list-style-type: none;
   }
 
-  p.tm-banner-text {
-    animation: none;
-  }
-
   div.tm-content-box.flex-2-col div.padding-medium {
     padding-left: 10px;
     padding-right: 10px;
