@@ -1,10 +1,12 @@
 let first = prompt('Please enter first value: a'),
   second = prompt('Please enter second value: b'),
   third = prompt('Please enter third value: c'),
-  a = parseFloat(first),
-  b = parseFloat(second),
-  c = parseFloat(third),
+  a = parseInt(first),
+  b = parseInt(second),
+  c = parseInt(third),
   next = true;
+
+
 
 if (isNaN(a) || isNaN(b) || isNaN(c)) {
   next = false;
