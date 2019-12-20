@@ -14,12 +14,14 @@ if (isNaN(a) || isNaN(b) || isNaN(c)) {
   alert('A triangle must have 3 sides with a positive definite length ');
 }
 
-if (a === b && b === c && next === true) {
-  console.log('Equilateral triangle');
-} else if ((a === b || b === c || a === c) && next === true) {
-  console.log('Isosceles triangle');
-} else if (a !== b && b !== c && a !== c && next === true) {
-  console.log('Scalene triangle');
+if (a + b > c && b + c > a && a + c > b && next === true) {
+  if (a === b && b === c && next === true) {
+    console.log('Equilateral triangle');
+  } else if ((a === b || b === c || a === c) && next === true) {
+    console.log('Isosceles triangle');
+  } else if (a !== b && b !== c && a !== c && next === true) {
+    console.log('Scalene triangle');
+  }
 } else if (next === true) {
   console.log('Triangle doesn’t exist');
 }
