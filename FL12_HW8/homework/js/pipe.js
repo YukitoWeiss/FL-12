@@ -1,7 +1,7 @@
 function pipe() {
     let sum = 0;
     sum = addOne(arguments[0]);
-    if (arguments.length > 1) {
+    if (arguments.length > 2) {
         for (let i = 2; i < arguments.length; i++) {
             sum++;
         }
