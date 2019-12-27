@@ -3,7 +3,7 @@ function pipe() {
     sum = addOne(arguments[0]);
     if (arguments.length > 1) {
         for (let i = 2; i < arguments.length; i++) {
-            sum = addOne(sum);
+            sum++;
         }
         return sum;
     } else {
