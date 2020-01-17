@@ -55,7 +55,7 @@ function Fighter(obj) {
   this.attack = function (defender) {
     if (Math.floor(Math.random() * 100 + 1) < 100 - defender.getStrength() + defender.getAgility()) {
       defender.dealDamage(this.getDamage());
-      console.log(`${this.getName()} makes ${this.getDamage()} to ${defender.getName()}`);
+      console.log(`${this.getName()} makes ${this.getDamage()} damage to ${defender.getName()}`);
     } else {
       console.log(`${this.getName()} attack missed`);
     }
