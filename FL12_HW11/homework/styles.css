@@ -1,0 +1,48 @@
+i {
+  color: orange;
+  vertical-align: bottom;
+}
+
+.file i {
+  color: lightgrey;
+}
+
+.file {
+  cursor: pointer;
+  width: 100%;
+  display: block;
+}
+
+.file:hover, span:hover, .empty:hover {
+  background-color: #e6e6e6;
+}
+
+.nested {
+  padding-left: 15px;
+}
+
+.emptyList {
+  padding-left: 5px;
+}
+
+.empty {
+  font-style: italic;
+  cursor: pointer;
+}
+
+.closed {
+  display: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.folder {
+  cursor: pointer;
+}
+
+span {
+  width: 100%;
+  display: block;
+}
